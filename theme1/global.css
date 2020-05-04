@@ -4,7 +4,7 @@ padding: 0;
 border: 0;
 background-color: #000;
 color: #fff;
-font: 300 14px/22px 'Lato',helvetica, arial, sans-serif;
+font: 14px/22px 'Lato',helvetica, arial, sans-serif;
 width: 100%;
 height: 100%;
 padding: 0;
@@ -130,7 +130,7 @@ transition: background-color 1s;
 }
 
 #sidebar h1{
-font: 300 14px/18px 'Lato',helvetica, arial, sans-serif;
+font: 14px/18px 'Lato',helvetica, arial, sans-serif;
 margin: 0;
 padding: 32px 0 20px 5px;
 float: left;
@@ -485,7 +485,7 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
-font: 300 1em/1.6em 'Lato',helvetica, arial, sans-serif;
+font: 1em/1.6em 'Lato',helvetica, arial, sans-serif;
 z-index: 5;
 -moz-opacity: 1;
 -webkit-opacity: 1;
@@ -511,7 +511,10 @@ opacity: 0;
 clear: both;
 position: absolute;
 width: 100%;
-height: 100%;
+padding: 10px;
+border-radius: 5px;
+background: rgba(0, 0, 0, 0.7);
+box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.7);
 }
 
 .image{
@@ -535,31 +538,31 @@ z-index: 2;
 
 .post h1, .post h2, .post h3{
 display: block;
-font: 100 4em 'Lato',helvetica, arial, sans-serif;
+font: 4em 'Lato',helvetica, arial, sans-serif;
 margin: 0;
-padding: 20px 0 10px 0;
+padding: 0 0 10px 0;
 }
 
 .post h1{
+text-align: center;
 -webkit-text-stroke: 0.5px;
+padding: 0;
 }
 
 .post h2{
 clear: both;
 font-size: 2em;
-padding: 10px 0 10px 0;
 }
 
 .post h3{
 	clear: both;
-	font: 300 1.2em 'Lato',helvetica, arial, sans-serif;
-	padding: 10px 0 10px 0;
+	font: 1.2em 'Lato',helvetica, arial, sans-serif;
 }
 
 .post h1 .sub{
 display: block;
 margin: 10px 0 0 0;	
-font: 300 18px/22px 'Lato',helvetica, arial, sans-serif;
+font: 18px/22px 'Lato',helvetica, arial, sans-serif;
 }
 
 .post h2 .sub{
@@ -568,6 +571,10 @@ width: 16px;
 height: 16px;
 background: transparent url(img/comment.png) no-repeat;
 margin: 10px 10px 0 0;
+}
+
+.post p {
+	margin: 0;
 }
 
 .post .pagenav{
@@ -620,7 +627,7 @@ float: left;
 .prev a, .next a{
 display: block;
 min-height: 100px;
-font: 300 48px 'Lato',helvetica, arial, sans-serif;
+font: 48px 'Lato',helvetica, arial, sans-serif;
 -webkit-transition: all 0.5s;
 -moz-transition: all 0.5s;
 -ms-transition: all 0.5s;
